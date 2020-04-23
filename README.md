@@ -26,3 +26,11 @@ npm test
 ## About
 
 This app uses React and Material-ui 
+
+## Production Link on Heroku
+https://subreddit-ui-dg.herokuapp.com/?
+
+## Usage 
+
+
+
