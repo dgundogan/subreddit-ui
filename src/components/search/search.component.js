@@ -28,13 +28,12 @@ const styles = theme => ({
 });
 
 const Search = props => {
-  const [subreddit, setSubreddit] = useState(0);
+  const [subreddit, setSubreddit] = useState('');
   const [subreddits, setSubreddits] = useState([]);
 
   const handleFood = e => setSubreddit(e.target.value);
 
   const search = async () => {
-    setSubreddit([]);
     await get(subreddit).then(res => res.json())
                         .then(res => setSubreddits(res))
                         .catch(err => {
