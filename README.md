@@ -32,7 +32,7 @@ https://subreddit-ui-dg.herokuapp.com
 
 ## Usage 
 
-<table style={border:"none"}><tr><td><img src="https://github.com/dgundogan/subreddit-ui/blob/master/.png" alt="Landing Page" width="400"/></td></tr></table>
+<table style={border:"none"}><tr><td><img src="https://github.com/dgundogan/subreddit-ui/blob/master/screen.png" alt="Landing Page" width="400"/></td></tr></table>
 
 
 
