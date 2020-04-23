@@ -3,7 +3,7 @@ This app helps to show the top articles in a given subreddit
 
 ## Run locally
 
-## Change api url in /public/config.js to Local Nodejs server url
+### Change api url in /public/config.js to Local Nodejs server url
 
 ```
     const config = {
@@ -11,11 +11,11 @@ This app helps to show the top articles in a given subreddit
     };
 ```
 
-## Install
+### Install
 ```
 npm install
 ```
-## Run
+### Run
 
 ```
 npm start
@@ -23,7 +23,7 @@ npm start
 
 Then browse to `localhost:3000`
 
-## Run Tests
+### Run Tests
 
 ```
 npm test
