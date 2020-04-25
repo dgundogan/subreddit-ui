@@ -11,7 +11,7 @@ import {
   TableWrapper
 } from './list.styles';
 
-const ListPreview = (props) => {
+const ListPreview = ({ subreddits }) => {
     const columns = [
       { id: "title", label: "Title", minWidth: 100 },
       { id: "url", label: "Url", minWidth: 100 },
@@ -48,7 +48,7 @@ const ListPreview = (props) => {
               </TableRow>
             </TableHead>
             <TableBody>
-              {props.subreddits
+              {subreddits
                 .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
                 .map(row => {
                   return (
@@ -72,7 +72,7 @@ const ListPreview = (props) => {
         <TablePagination
         rowsPerPageOptions={[10, 25, 100]}
         component="div"
-        count={props.subreddits.length}
+        count={subreddits.length}
         rowsPerPage={rowsPerPage}
         page={page}
         backIconButtonProps={{
